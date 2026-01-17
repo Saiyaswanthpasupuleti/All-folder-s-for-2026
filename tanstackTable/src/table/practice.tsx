@@ -81,6 +81,11 @@ function MainTable() {
                 headerCell.column.columnDef.header,
                 headerCell.getContext()
               )}
+              {headerCell.column.getIsSorted() === "asc"
+                ? "↑"
+                : headerCell.column.getIsSorted() === "desc"
+                ? "↓"
+                : ""}
             </th>
           ))}
         </tr>
