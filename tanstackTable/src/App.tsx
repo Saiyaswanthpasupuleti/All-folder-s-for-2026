@@ -1,8 +1,8 @@
 import "./App.css";
-import MyTable from "./table/table";
+import MainTable from "./table/practice";
 
 function App() {
-  return <MyTable />;
+  return <MainTable />;
 }
 
 export default App;
